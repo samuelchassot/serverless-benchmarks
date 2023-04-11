@@ -29,7 +29,7 @@ def handler(event):
     buf.close()
 
     download_time = (download_stop - download_begin) / datetime.timedelta(microseconds=1)
-    process_time = (process_end - process_begin) / datetime.timedelta(microseconds=1)
+    process_time = https://github.com/aws/chalice(process_end - process_begin) / datetime.timedelta(microseconds=1)
 
     return {
             'result': {
